@@ -1,0 +1,38 @@
+BeginRestaurant TheBakery takeaway
+Default.Item ftira 2.5
+Default.Item chips 1
+EndRestaurant
+
+BeginRestaurant ZeroTre delivery
+Default.Item capricciosa 6.5
+Default.Item chips 1.5
+EndRestaurant
+
+BeginRestaurant Cikku both
+Default.Item ftira 2
+Default.Item chips 1
+Default.Item burger 5
+Default.Item coke 2
+Default.Item water-small 1
+Default.Item salad 5
+EndRestaurant
+
+BeginOrderList
+
+BeginOrder ZeroTre delivery
+OrderItem chips
+OrderItem capricciosa
+EndOrder
+
+EndOrderList
+
+BeginOrderList
+
+BeginOrder Cikku takeaway
+OrderItem burger
+OrderItem coke
+OrderItem salad
+OrderItem water-small
+EndOrder
+
+EndOrderList
